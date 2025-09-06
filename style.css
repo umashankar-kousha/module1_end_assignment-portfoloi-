@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-bg-container {
+  background: linear-gradient(90deg, #ffffff, #f5bfd4);
+  height: 100vh;
+}
+
+.profile-photo {
+  width: 300px;
+  height: 400px;
+}
+
+.about-bg {
+  background: linear-gradient(90deg, #ffffff, #c0fad7);
+}
+
+.about-card {
+  box-shadow: 0 0 20px 0 #e3e1e3;
+}
+
+.about-card-image {
+  height: 500px;
+}
+
+.download-btn {
+  border: none;
+  color: #1f1f1f;
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 5px 2px;
+  font-weight: 500;
+  padding: 2px, 5px;
+}
+
+.download-icon {
+  vertical-align: middle;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+  border: 2px solid #9929fb;
+  color: #9929fb;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 30px 70px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.contact-card-1 {
+  width: 40%;
+}
+
+.contact-note {
+  color: #263238;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact-para {
+  color: rgb(158, 158, 158);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.address-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.address-card-name {
+  color: rgb(158, 158, 158);
+  font-size: 8px;
+  font-weight: 500;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.address-card-value {
+  color: #263238;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.contact-form-button {
+  border: none;
+  padding: 5px;
+  color: #9929fb;
+  border-radius: 3px;
+  background-color: #edd8ff80;
+}
+
+.address-card:hover {
+  box-shadow: 0 0 20px 0 #e3e1e3;
+  border-radius: 10px;
+  background-color: #ffffff;
+  .contact-form-button {
+    background-color: #9929fb;
+    color: #ffffff;
+  }
+}
+
+form {
+  width: 300px;
+}
+
+.input-text {
+  border: none;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  outline: none;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #616161;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+::placeholder {
+  font-size: 10px;
+}
+
+.radio-container {
+  width: 200px;
+}
+
+.form-bg-container {
+  padding: 70px 50px;
+}
+
+.radio {
+  color: rgb(158, 158, 158);
+}
+
+.submit-btn {
+  color: #ffffff;
+  background-color: #9929fb;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+footer {
+  padding: 30px;
+  background-color: #02254d;
+  color: #ffffff;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+
+.footer-links {
+  margin-right: 6px;
+  color: #ffffff;
+}
+
+.footer-end {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about-cart-txt {
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 20px 15px;
+  }
+  .contact-card-1 {
+    width: 100%;
+  }
+  form {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
