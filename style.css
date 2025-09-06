@@ -10,6 +10,19 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+.my-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.main-section {
+  margin-top: 50px;
+}
+
 /*Home Card Style */
 .home-bg-container {
   background: linear-gradient(90deg, #ffffff, #f5bfd4);
@@ -20,6 +33,19 @@ body {
   width: 300px;
   height: 400px;
 }
+
+.stickey {
+  position: sticky;
+  top: 200px;
+  left: 100%;
+  z-index: 1;
+}
+
+.stickey:hover {
+  cursor: pointer;
+  background-color: chocolate;
+}
+
 /*About Section Style*/
 .about-bg {
   background: linear-gradient(90deg, #ffffff, #c0fad7);
