@@ -1,3 +1,4 @@
+/*Googel fonts apis */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -9,7 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
+/*Home Card Style */
 .home-bg-container {
   background: linear-gradient(90deg, #ffffff, #f5bfd4);
   height: 100vh;
@@ -19,7 +20,7 @@ body {
   width: 300px;
   height: 400px;
 }
-
+/*About Section Style*/
 .about-bg {
   background: linear-gradient(90deg, #ffffff, #c0fad7);
 }
@@ -51,7 +52,7 @@ body {
   border: 2px solid #9929fb;
   color: #9929fb;
 }
-
+/*Form Styles*/
 .form-container {
   display: flex;
   justify-content: space-around;
@@ -197,6 +198,8 @@ footer {
 .footer-end {
   text-align: center;
 }
+
+/*Responsive break points*/
 
 @media screen and (max-width: 768px) {
   .about-cart-txt {

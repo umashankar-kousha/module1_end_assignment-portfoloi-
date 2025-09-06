@@ -27,6 +27,7 @@
     />
   </head>
   <body>
+    <!--Header Section-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3">
         <div class="container-fluid">
@@ -56,13 +57,16 @@
 
               <a class="nav-link" href="#Skills">Skills</a>
               <a class="nav-link" href="#Projects">Projects</a>
+              <a class="nav-link" href="#Testimonials">Testimonials</a>
               <a class="nav-link" href="#Contact">Contact</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
+    <!--Main Section-->
     <main>
+      <!--Home/Hero Section Starts-->
       <section class="container-fluid p-4 home-bg-container" id="Home">
         <div
           class="container d-flex justify-content-between shadow rounded p-3 bg-light bg-gradientt flex-md-nowrap flex-wrap about"
@@ -136,17 +140,18 @@
               <a href="#Projects" target="_self">
                 <button class="btn btn-primary">My Projects</button></a
               >
-              <a
-                ><button class="download-btn">
+              <a href="./assets/Uma Shankar_Resume.pdf" download="">
+                <button class="download-btn">
                   <span class="material-symbols-outlined download-icon">
                     download </span
                   >Download CV
-                </button></a
-              >
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </section>
+      <!--Skills Section-->
       <section class="mt-4 shadow-lg p-3 mb-5 bg-body rounded" id="Skills">
         <div class="container text-center">
           <h3>My Skills</h3>
@@ -158,7 +163,9 @@
             for a motivated learner who’s serious about growth, I’d love to
             connect.
           </p>
+          <!--Skills Container-->
           <div class="container d-flex justify-content-center flex-wrap p-3">
+            <!-- Skill Card 1 -->
             <div
               class="card shadow-lg p-3 mb-5 me-3 bg-body rounded"
               style="width: 18rem"
@@ -175,15 +182,61 @@
                   React for smooth, user-friendly web experiences.
                 </p>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">HTML & CSS</li>
+              <h6>HTML5 & CSS3</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 85%"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  85%
+                </div>
+              </div>
+              <h6>Bootstrap</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary text-dark"
+                  role="progressbar"
+                  style="width: 65%"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  65%
+                </div>
+              </div>
+              <h6>JavaScript</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 20%"
+                  aria-valuenow="20"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  20%
+                </div>
+              </div>
 
-                <li class="list-group-item">Bootstrap5</li>
-                <li class="list-group-item">JavaScript (ES6)</li>
-                <li class="list-group-item">React JS</li>
-              </ul>
+              <h6>React.js</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-warning text-dark"
+                  role="progressbar"
+                  style="width: 10%"
+                  aria-valuenow="10"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  10%
+                </div>
+              </div>
             </div>
-
+            <!-- Skill Card 2 -->
             <div
               class="card shadow-lg p-3 mb-5 me-3 bg-body rounded"
               style="width: 18rem"
@@ -200,14 +253,60 @@
                   connect front-end with database efficiently.
                 </p>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Node Js</li>
-                <li class="list-group-item">Express Js REST APIs</li>
-                <li class="list-group-item">REST APIs</li>
-                <li class="list-group-item">Middleware Basics</li>
-              </ul>
+              <h6>Node.js</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-warning text-dark"
+                  role="progressbar"
+                  style="width: 5%"
+                  aria-valuenow="5"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5%
+                </div>
+              </div>
+              <h6>Express Js</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 5%"
+                  aria-valuenow="5"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5%
+                </div>
+              </div>
+              <h6>Middleware Basics</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary text-dark"
+                  role="progressbar"
+                  style="width: 1%"
+                  aria-valuenow="1"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  1%
+                </div>
+              </div>
+              <h6>REST APIs</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 1%"
+                  aria-valuenow="1"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  1%
+                </div>
+              </div>
             </div>
-
+            <!--            Skill Card 3            -->
             <div
               class="card shadow-lg p-3 mb-5 me-3 bg-body rounded"
               style="width: 18rem"
@@ -224,15 +323,60 @@
                   queries for structured, scalable storage solutions
                 </p>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Mongo Db</li>
-                <li class="list-group-item">Mongoose</li>
-
-                <li class="list-group-item">SQL</li>
-                <li class="list-group-item">CRUD Operations</li>
-              </ul>
+              <h6>Mongo DB</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-warning text-dark"
+                  role="progressbar"
+                  style="width: 5%"
+                  aria-valuenow="5"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5%
+                </div>
+              </div>
+              <h6>Mongoose</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 5%"
+                  aria-valuenow="5"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5%
+                </div>
+              </div>
+              <h6>SQL</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary text-dark"
+                  role="progressbar"
+                  style="width: 1%"
+                  aria-valuenow="1"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  1%
+                </div>
+              </div>
+              <h6>CRUD Operations</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 1%"
+                  aria-valuenow="1"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  1%
+                </div>
+              </div>
             </div>
-
+            <!--            Skill Card 4           -->
             <div
               class="card shadow-lg p-3 mb-5 bg-body rounded"
               style="width: 18rem"
@@ -249,21 +393,69 @@
                   collaboration, and project management.
                 </p>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Git/GitHub</li>
-                <li class="list-group-item">Postman</li>
-                <li class="list-group-item">VS Code</li>
-                <li class="list-group-item">npm</li>
-              </ul>
+              <h6>Git/GitHub</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-warning text-dark"
+                  role="progressbar"
+                  style="width: 5%"
+                  aria-valuenow="5"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5%
+                </div>
+              </div>
+              <h6>Postman</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 5%"
+                  aria-valuenow="5"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5%
+                </div>
+              </div>
+              <h6>VS Code</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary text-dark"
+                  role="progressbar"
+                  style="width: 1%"
+                  aria-valuenow="1"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  1%
+                </div>
+              </div>
+              <h6>npm</h6>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 1%"
+                  aria-valuenow="1"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  1%
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!--Projects Section Starts-->
       <section
         class="container mt-4 shadow-lg p-4 mb-5 bg-body rounded text-center"
         id="Projects"
       >
         <h4>Projects</h4>
+        <!--Projects Container-->
         <div class="row justify-content-center">
           <!-- Project 1 -->
           <div
@@ -411,14 +603,95 @@
           </div>
         </div>
       </section>
+      <!--Testimonial Section Starts-->
+      <section id="Testimonials">
+        <!--Carousel-->
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Testimonial 1 -->
+            <div class="carousel-item active text-center">
+              <div class="card mx-auto" style="width: 28rem">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Uma Shankar is a fast learner with great attention to
+                    detail. The way he approaches problems shows strong
+                    potential as a developer."
+                  </p>
+                  <h6 class="card-subtitle mt-3 text-muted">
+                    — Sarah Johnson, Mentor at Entri FSD Course
+                  </h6>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="carousel-item text-center">
+              <div class="card mx-auto" style="width: 28rem">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Working with Uma was smooth and productive. He communicates
+                    well, delivers on time, and constantly looks for ways to
+                    improve."
+                  </p>
+                  <h6 class="card-subtitle mt-3 text-muted">
+                    — David Miller, Project Collaborator
+                  </h6>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="carousel-item text-center">
+              <div class="card mx-auto" style="width: 28rem">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Uma shankar’s passion for web development is inspiring. His
+                    portfolio projects reflect both creativity and technical
+                    growth."
+                  </p>
+                  <h6 class="card-subtitle mt-3 text-muted">
+                    — Priya Sharma, Coding Peer
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!--Contact Section Starts-->
       <section class="form-bg-container" id="Contact">
-        <div class="skill-text-holder">
-          <h1 class="skill-note">Contact Us</h1>
-          <p class="skill-para">
+        <div>
+          <h1 class="text-center text-dark">Contact Us</h1>
+          <p class="text-center text-secondary">
             Ready to get started? Feel free to reach out through the contact
             form, and let's embark on a journey of innovation and success.
           </p>
         </div>
+        <!--My Address-->
         <div class="form-container">
           <div class="contact-card-1">
             <h2 class="contact-note">Let’s Work Together</h2>
@@ -446,6 +719,7 @@
               </div>
             </div>
             <div class="address-card">
+              <!--Bootstrap Icon -->
               <button class="contact-form-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -469,6 +743,7 @@
             </div>
           </div>
           <div>
+            <!--Form Starts Here-->
             <form>
               <div class="input">
                 <label for="FirstName">First Name</label>
@@ -545,9 +820,10 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer-card">
-        <div class="nav-bar-logo">
+    <!--footer Section-->
+    <footer class="bg-dark">
+      <div class="d-flex justify-content-evenly flex-wrap p-4">
+        <div>
           <a class="navbar-brand" href="#"
             ><h3>
               <span class="bg-info p-3 me-2 rounded-circle text-light">U</span
@@ -555,6 +831,7 @@
             </h3></a
           >
         </div>
+        <!--Footer External Links-->
         <ul class="footer-ul">
           <li class="footer-links">
             <a href="./index.html" target="_self">Home</a>
@@ -578,6 +855,7 @@
         Developed with &#x2665; by HTML,CSS & Bootstrap5
       </h5>
     </footer>
+    <!--Bootstrap Javascript CDN-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
